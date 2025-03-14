@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin '@tailwindcss/typography';
+
+html{
+    font-family: system-ui, sans-serif;
+    background: rgb(18, 19, 25);
+    color: white;
+}
+
+body {
+    @apply grid place-content-center p-20;
+}
+
+body > div{
+    @apply container;
+}
